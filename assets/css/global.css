@@ -1,0 +1,18 @@
+/* Aura Tech Global Stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: #0F172A;
+    color: #F8FAFC;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #2563EB;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(37, 99, 235, 0.5);
+}
